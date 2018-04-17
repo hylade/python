@@ -58,3 +58,7 @@ print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
 
 
 
+## 绘制多个图形
+
+```matplotlib.pyplot```默认有一个```figure```（窗口），可以通过```plt.figure()```生成多个窗口，以便于对比等
+
